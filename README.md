@@ -8,6 +8,8 @@ Show the folder structure of the website ? Show a specific file ? Zip content ? 
 
 Thanks to Furez's structure you can easily mount your own bundle in order to complete the work.
 
++ The SQL Throughout the API will allow you to quickly obtain data from a database but with the connexion of the server. (Leave no trace of your connexion)
+
 ## Technology ?
 FurezApi Framework use web languages for the interface and the infected API witch includes : PHP, Js and HTML,CSS.
 The future automated program will use Python to make it even quicker.
@@ -22,9 +24,7 @@ On the back side we got AltoRouter to get a simple and lightweight routing syste
 ### What's next/in progress ?
 - Better handle of responses and displays of errors
 - All possibilities of infected API in testing directory
-- Realisation of SQL connexion throughout the API
 - Python Automatisation (with GUI thank's to GALA)
-- Make a home page when no data in the api_config.xml
 
 ### If you encounter problems?
 - Check your rights on the files and folder.. Can you display, read and wrights on file or folder ? (ls -l)
