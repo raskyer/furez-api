@@ -2,13 +2,15 @@
 FurezApi Framework is a quick tool to exploit file upload vulnerability
 
 ## What's FurezApi Framework ?
-FurezApi Framework is a little tool that will allow you to exploit file upload vulnerability on website server. The main goal is pretty simple : Test every possibilities of infected file to upload and once it's done giving you a user interface to manage datas and actions you want to do on server.
+FurezApi Framework will allow you to exploit file upload vulnerability on website server. The main goal is pretty simple : Test every possibilities of infected files to upload, if the upload is successful; 
+- giving you a user interface to manage datas
+-	allowing you to do what you want to do on server.
 
 Show the folder structure of the website ? Show a specific file ? Zip content ? Download content ? Upload or even delete ? If the API succeed to be upload on the server. You're the new king of this one!
 
-Thanks to Furez's structure you can easily mount your own bundle in order to complete the work.
+Thanks to Furez's structure you can easily create your own bundle in order to complete the work.
 
-+ The SQL Throughout the API will allow you to quickly obtain data from a database but with the connexion of the server. (Leave no trace of your connexion)
++ SQL connexion and request through the API will allow you to quickly obtain data from a database but with the connexion of the server. (Leave no trace of your connexion)
 
 ## Technology ?
 FurezApi Framework use web languages for the interface and the infected API witch includes : PHP, Js and HTML,CSS.
@@ -21,16 +23,16 @@ On the back side we got AltoRouter to get a simple and lightweight routing syste
 ## Current Version ?
 1.0
 
-### What's next/in progress ?
+### What's in progress before release ?
 - Better handle of responses and displays of errors
 - All possibilities of infected API in testing directory
-- Python Automatisation (with GUI thank's to GALA)
+- Python Automatisation (with GUI thanks to GALA)
 
 ### If you encounter problems?
-- Check your rights on the files and folder.. Can you display, read and wrights on file or folder ? (ls -l)
-- Check your Apache configuration.. Check the rewrite mod if enabled, Allow Overrid All, etc ..
+- Check your rights on the files and folder.. Can you display, read and write on file or folder ? (ls -l)
+- Check your Apache configuration.. Check if the rewrite mod is enabled, Allow Overrid All, etc ..
 - Check your php.ini: allow_url_fopen ? curl ? 
-- If any other bugs you can post it on this git hub and a fix will be add
+- If you find any other bug, you can post it on this git hub. Then a fix will be added.
 
 ## Quick Install :
 Soon
