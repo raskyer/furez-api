@@ -2,4 +2,3 @@
 composer.lock
 uploads/*
 furezapi/config/api_config.xml
-vendor/*
