@@ -1,0 +1,192 @@
+/*GENERAL HTML*/
+body {
+	background: #111;
+	color: #f7f7f7;
+	margin-bottom: 50px;
+}
+section {
+	padding-top: 20px;
+}
+section h2, section h3 {
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+}
+pre {
+	background: #222;
+	color: #3BFF3B;
+	font-size: 15px;
+	border: none;
+	max-width: 100%;
+	white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+/*GENERAL CLASS*/
+.page-header {
+	margin-top: 0;
+}
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.bundle-cut {
+	position: relative;
+	background: #111;
+	z-index: 10;
+}
+.well {
+	background: #222;
+	border-color: #444;
+	color: #DADFE1;
+}
+.well textarea {
+	background: #333;
+	color: #fff;
+	border-color: #444;
+}
+.btn-small {
+	font-size: 11px;
+	padding: 4px 8px;
+}
+
+/*TERMINAL*/
+.uTerminal {
+	background: #222;
+	color: #5CB85C;
+	font-size: 20px;
+	min-height: 300px;
+	max-height: 300px;
+	overflow-y: scroll;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+.uInput-text {
+	background: #333;
+	color: #fff;
+}
+.input-group-addon {
+	background: #333;
+	color: #5CB85C;
+	font-weight:bold;
+}
+
+/*FOLDER STRUCTURE*/
+.uFolderStructure {
+	background: #444;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.uSiteMap {
+	margin: 0;
+	padding: 0px;
+	padding-left: 5px;
+	list-style: none;
+	border-right: 1px solid #333;
+}
+.uSiteMap ul {
+	padding-left: 25px;
+	list-style: none;
+}
+.uSiteMap li {
+	padding: 5px;
+	border-bottom: 1px solid #333;
+}
+.uSiteMap li:hover {
+	background: #747;
+	cursor: pointer;
+}
+.uSiteMap li.active {
+	background: green;
+}
+.uActionNav {
+	width: 100%;
+	background: #222;
+	padding: 20px;
+    min-height: 250px;
+}
+#uActiveObj {
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	border-bottom: 1px solid #f7f7f7;
+	font-size: 20px;
+}
+#uActiveObjInfo {
+	height: 80px;
+	margin-bottom: 15px;
+}
+
+/*MODAL*/
+.modal {
+	color: #333;
+}
+.modal-dark .modal-dialog {
+	width: 90%;
+}
+.modal-dark .modal-header {
+	color: #fff;
+}
+.modal-dark .modal-header .close {
+	color: #fff;
+	opacity: 1;
+}
+.modal-dark .modal-content {
+	background: #333;
+}
+.modal-dark .modal-content pre {
+	max-height: 600px;
+	overflow-y: scroll;
+}
+
+/*PRE LINE*/
+pre .line-number {
+  float:left;
+  margin:0 1em 0 -1em;
+  border-right:1px solid;
+  text-align:right;
+}
+pre .line-number span {
+  display:block;
+  padding:0 .5em 0 1em;
+}
+pre .cl {
+  display:block;
+  clear:both;
+}
+
+/*MYSQL*/
+#uMysqlSection {
+	position: relative;
+	background: #111;
+	z-index: 9;
+}
+.panel {
+	color: black;
+}
+.form-inline {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.table {
+	color: #333;
+}
+.caption p {
+	font-family: Arial;
+}
+.table tr td p {
+	font-family: Arial;
+}
+.table-responsive img {
+	max-width: 90px;
+}
+.error404 {
+	color: #ef3e36;
+}

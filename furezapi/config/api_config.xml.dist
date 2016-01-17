@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<api>
+  <version>1.0</version>
+  <basepath>/</basepath>
+  <bundles>
+    <bundle controller="UploadController">
+      <name>Upload</name>
+      <views>
+        <view>uploadCut</view>
+      </views>
+    </bundle>
+    <bundle>
+      <name>RawPhp</name>
+      <views>
+        <view>phpCut</view>
+      </views>
+    </bundle>
+    <bundle controller="SqlController">
+      <name>Sql</name>
+      <views>
+        <view>sqlCut</view>
+      </views>
+    </bundle>
+  </bundles>
+  <list>
+    <group current="true">
+      <website>Localhost</website>
+      <image>https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg</image>
+      <url>http://localhost/testing/raw_php/furez_api.php</url>
+      <lastupdate>January 17, 2016, 4:05 pm</lastupdate>
+      <version>1.0</version>
+    </group>
+  </list>
+</api>
