@@ -18,7 +18,7 @@ class XMLService {
 		$dom->preserveWhiteSpace = false;
 		$dom->formatOutput = true;
 		$dom->loadXML($domXml->asXML());
-		$dom->save('FurezApi/config/api_config.xml');
+		$dom->save('furezapi/config/api_config.xml');
 	}
 
 	function add() {

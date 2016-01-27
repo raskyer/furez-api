@@ -1,5 +1,5 @@
 <?php
-    $dom = simplexml_load_file("FurezApi/config/api_config.xml");
+    $dom = simplexml_load_file("furezapi/config/api_config.xml");
     $_SESSION['apidom'] = $dom->asXML();
     $_SESSION['version'] = (string) $dom->version;
     $_SESSION['basepath'] = (string) $dom->basepath;
