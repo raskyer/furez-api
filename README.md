@@ -35,21 +35,26 @@ On the back side we got AltoRouter to get a simple and lightweight routing syste
 - If you find any other bug, you can post it on this git hub. Then a fix will be added.
 
 ## Quick Install :
-1. Pull the project in your localhost directory (/var/www/html on linux or directory htdocs on windows) :--
+1. Pull the project in your localhost directory (/var/www/html on linux or directory htdocs on windows)
+
 `git clone https://github.com/LeaklessGfy/FurezApi.git`
 
-2. Install vendor --
+2. Install vendor
+
 `composer install`
 
-3. Define your api_config.xml --
+3. Define your api_config.xml
+
 `cd furezapi/config`
 `cp api_config.xml.dist api_config.xml`
 
-4. Edit your api_config.xml with your setting --
+4. Edit your api_config.xml with your setting
+
 In order to define your routes : go line 4 of api_config.xml and edit your basepath.
 If index.php is accessible at : localhost/furez/index.php
 Your basepath is : /furez
 
-5. Go on the app and define api url --
+5. Go on the app and define api url
+
 Now launch your localhost go to the url and define the url of your API in config page
 
